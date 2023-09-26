@@ -1,0 +1,17 @@
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\grafoArvore.exe.config
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\grafoArvore.exe
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\grafoArvore.pdb
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Data.dll
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.dll
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.xml
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Data.xml
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.csproj.AssemblyReference.cache
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.csproj.SuggestedBindingRedirects.cache
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.csproj.CoreCompileInputs.cache
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.csproj.CopyComplete
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.exe
+C:\Users\walys\dotnetProjects\geekshopping\grafoArvore\grafoArvore\obj\Debug\grafoArvore.pdb
