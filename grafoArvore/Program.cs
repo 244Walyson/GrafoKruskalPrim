@@ -11,7 +11,6 @@ class Program
         int numVertices = 6; 
         int numArestas = 10;
 
-        // Gere um grafo aleatório com arestas ponderadas
         Graph graph = GenerateRandomGraph(numVertices, numArestas);
 
         Console.WriteLine("Grafo aleatório:");
@@ -81,8 +80,34 @@ class Program
 
     static List<Edge> ArvoreGeradora(Graph graph)
     {
-        return graph.Edges;
+        List<Edge> mst = new List<Edge>();
+
+        // Marque todos os vértices como não visitados
+        bool[] visited = new bool[graph.Vertices];
+        for (int i = 0; i < graph.Vertices; i++)
+            visited[i] = false;
+
+        // Comece a busca em profundidade a partir do vértice 0 (ou outro vértice inicial de sua escolha)
+        DFS(graph, 0, visited, mst);
+
+        return mst;
     }
+
+    static void DFS(Graph graph, int v, bool[] visited, List<Edge> mst)
+    {
+        visited[v] = true;
+
+        foreach (Edge edge in graph.Edges)
+        {
+            if (!visited[edge.Destiny] && (edge.Source == v || edge.Destiny == v))
+            {
+                mst.Add(edge); // Adicione a aresta à árvore geradora
+                int nextVertex = (edge.Source == v) ? edge.Destiny : edge.Source;
+                DFS(graph, nextVertex, visited, mst);
+            }
+        }
+    }
+
 
     static List<Edge> ArvoreGeradoraMinimaPrim(Graph graph)
     {
